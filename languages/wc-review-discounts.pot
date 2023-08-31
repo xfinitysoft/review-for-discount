@@ -1,0 +1,476 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR xfinitysoft
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: wc-review-discounts\n"
+"POT-Creation-Date: 2021-07-17 13:00+0500\n"
+"PO-Revision-Date: 2021-07-16 09:56+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-wc-review-discounts-admin.php:123
+msgid "Review for Discounts"
+msgstr ""
+
+#: admin/class-wc-review-discounts-admin.php:142
+#: admin/class-wc-review-discounts-admin.php:145
+#: admin/partials/wc-review-discounts-admin-display.php:19
+msgid "Review Discounts"
+msgstr ""
+
+#: admin/class-wc-review-discounts-admin.php:143
+msgid "Review Discount"
+msgstr ""
+
+#: admin/class-wc-review-discounts-admin.php:146
+#: admin/class-wc-review-discounts-admin.php:147
+#: admin/class-wc-review-discounts-admin.php:150
+msgid "Add Review Discount"
+msgstr ""
+
+#: admin/class-wc-review-discounts-admin.php:148
+msgid "Edit"
+msgstr ""
+
+#: admin/class-wc-review-discounts-admin.php:149
+msgid "Edit Review Discount"
+msgstr ""
+
+#: admin/class-wc-review-discounts-admin.php:151
+msgid "Search Review Discount"
+msgstr ""
+
+#: admin/class-wc-review-discounts-admin.php:152
+msgid "No Review Discount found"
+msgstr ""
+
+#: admin/class-wc-review-discounts-admin.php:153
+msgid "No Review Discount found in trash"
+msgstr ""
+
+#: admin/class-wc-review-discounts-admin.php:183
+msgid "Discount Options"
+msgstr ""
+
+#: admin/class-wc-review-discounts-admin.php:245
+msgid "Description"
+msgstr ""
+
+#: admin/class-wc-review-discounts-admin.php:246
+#: admin/partials/wc-review-discounts-meta-box.php:13
+msgid "Triggering event"
+msgstr ""
+
+#: admin/class-wc-review-discounts-admin.php:247
+msgid "Date"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-display.php:23
+msgid "General Settings"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-display.php:26
+#: admin/partials/wc-review-discounts-admin-display.php:39
+msgid "SendGrid Settings"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-display.php:43
+msgid "Enable SendGrid"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-display.php:46
+msgid "Use SendGrid to send emails"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-display.php:50
+msgid "SendGrid From Email"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-display.php:56
+msgid "SendGrid Email API Key"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-display.php:63
+#: admin/partials/wc-review-discounts-admin-settings.php:246
+msgid "Save Changes"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-settings.php:7
+msgid "Review For Discounts settings"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-settings.php:11
+msgid "Enable WooCommerce Review For Discounts"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-settings.php:20
+msgid "The coupon will be sent"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-settings.php:23
+msgid "After review approval"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-settings.php:24
+msgid "After review composition"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-settings.php:26
+msgid "Choose when coupon will be sent"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-settings.php:30
+msgid "Email header color"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-settings.php:36
+msgid "Deletion of Expired Coupons"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-settings.php:43
+msgid ""
+"Delete automatically expired coupons (only those created by this plugin)"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-settings.php:49
+msgid "Email settings for the single review"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-settings.php:53
+#: admin/partials/wc-review-discounts-admin-settings.php:103
+#: admin/partials/wc-review-discounts-admin-settings.php:152
+#: admin/partials/wc-review-discounts-admin-settings.php:201
+msgid "Email type"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-settings.php:56
+#: admin/partials/wc-review-discounts-admin-settings.php:106
+#: admin/partials/wc-review-discounts-admin-settings.php:155
+#: admin/partials/wc-review-discounts-admin-settings.php:204
+msgid "HTML"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-settings.php:57
+#: admin/partials/wc-review-discounts-admin-settings.php:107
+#: admin/partials/wc-review-discounts-admin-settings.php:156
+#: admin/partials/wc-review-discounts-admin-settings.php:205
+msgid "Plain text"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-settings.php:60
+#: admin/partials/wc-review-discounts-admin-settings.php:110
+#: admin/partials/wc-review-discounts-admin-settings.php:159
+#: admin/partials/wc-review-discounts-admin-settings.php:208
+msgid "Choose which email format you want to use"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-settings.php:65
+#: admin/partials/wc-review-discounts-admin-settings.php:115
+#: admin/partials/wc-review-discounts-admin-settings.php:164
+#: admin/partials/wc-review-discounts-admin-settings.php:213
+msgid "Email subject"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-settings.php:69
+#: admin/partials/wc-review-discounts-admin-settings.php:119
+#: admin/partials/wc-review-discounts-admin-settings.php:168
+#: admin/partials/wc-review-discounts-admin-settings.php:217
+msgid ""
+"Allowed placeholders: {site_title} {customer_name} {customer_last_name}"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-settings.php:74
+#: admin/partials/wc-review-discounts-admin-settings.php:124
+#: admin/partials/wc-review-discounts-admin-settings.php:173
+#: admin/partials/wc-review-discounts-admin-settings.php:222
+msgid "Email content"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-settings.php:78
+msgid ""
+"Allowed placeholders: {site_title} {customer_name} {customer_last_name} "
+"{customer_email} {product_name} {coupon_description}"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-settings.php:83
+#: admin/partials/wc-review-discounts-admin-settings.php:133
+#: admin/partials/wc-review-discounts-admin-settings.php:182
+#: admin/partials/wc-review-discounts-admin-settings.php:231
+msgid "Test email"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-settings.php:87
+#: admin/partials/wc-review-discounts-admin-settings.php:136
+#: admin/partials/wc-review-discounts-admin-settings.php:185
+#: admin/partials/wc-review-discounts-admin-settings.php:234
+msgid "Send Test Email"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-settings.php:89
+#: admin/partials/wc-review-discounts-admin-settings.php:138
+#: admin/partials/wc-review-discounts-admin-settings.php:187
+#: admin/partials/wc-review-discounts-admin-settings.php:236
+msgid "Type an email address to send a test email"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-settings.php:93
+#: admin/partials/wc-review-discounts-admin-settings.php:142
+#: admin/partials/wc-review-discounts-admin-settings.php:191
+#: admin/partials/wc-review-discounts-admin-settings.php:240
+msgid "Dismiss this notice."
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-settings.php:99
+msgid "Email settings for multiple reviews"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-settings.php:128
+msgid ""
+"Allowed placeholders: {site_title} {customer_name} {customer_last_name} "
+"{customer_email} {total_reviews} {coupon_description}"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-settings.php:148
+msgid "Email settings for customer close to the target"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-settings.php:177
+msgid ""
+"Allowed placeholders: {site_title} {customer_name} {customer_last_name} "
+"{customer_email} {remaining_reviews}"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-settings.php:197
+msgid "Email settings for customer after buying product"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-admin-settings.php:226
+msgid ""
+"Allowed placeholders: {site_title} {customer_name} {customer_last_name} "
+"{customer_email}"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:6
+msgid "Coupon description"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:9
+msgid "Description of coupon."
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:15
+msgid "Single Review"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:16
+msgid "Multiple Review"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:19
+msgid "When the coupon will be sent."
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:25
+msgid ""
+"Leaving the following fields empty, users will receive a coupon for the "
+"review of any product "
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:28
+msgid "Triggering Products"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:35
+msgid "Products that will be give a coupon if reviewed."
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:39
+msgid "Triggering product categories"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:46
+msgid "Reviewing products of the selected categories will send a coupon."
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:53
+msgid "Requested quantity"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:56
+msgid "How many reviews have to be written to receive the coupon."
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:60
+msgid "Send notification approaching requested quantity"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:63
+msgid ""
+" Send an email from a certain amount of review to get to the requested "
+"quantity to encourage users make other reviews "
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:67
+msgid "Initial quantity"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:70
+msgid ""
+"Set how many reviews are needed to start sending the email notifications."
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:76
+msgid "Discount Type"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:78
+msgid "Percentage discount"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:79
+msgid "Fixed cart discount"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:80
+msgid "Fixed product discount"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:84
+msgid "Coupon amount"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:87
+msgid "Value of the coupon."
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:91
+msgid "Validity days"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:94
+msgid ""
+"Set for how many days the coupon will be valid since the creation. Set to "
+"\"0\" for no expiration."
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:98
+msgid "Allow free shipping"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:101
+msgid " Check this box if the coupon grants free shipping. The "
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:102
+msgid "free shipping method"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:103
+msgid ""
+"  must be enabled and set to require \"a valid free shipping coupon\" (see "
+"the \"Free Shipping Requires\" setting)."
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:109
+msgid "Single use only"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:111
+msgid ""
+"Check this box if the coupon cannot be used in conjunction with other "
+"coupons."
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:114
+msgid "Exclude sale items"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:116
+msgid ""
+"Check this box if the coupon should not apply to items on sale. Per-item "
+"coupons will only work if the item is not on sale. Per-cart coupons will "
+"only work if there are items in the cart that are not on sale."
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:119
+msgid "Minimum amount to spend"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:122
+msgid ""
+"This field allows you to set the minimum subtotal needed to use the coupon."
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:126
+msgid "Maximum amount to spend"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:129
+msgid ""
+"This field allows you to set the maximum subtotal allowed when using the "
+"coupon."
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:133
+msgid "Products"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:140
+msgid ""
+"Products that the coupon will be applied to, or that need to be in the cart "
+"in order for the \"Fixed cart discount\" to be applied."
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:144
+msgid "Exclude products"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:151
+msgid ""
+"Products that the coupon will not be applied to, or that cannot be in the "
+"cart in order for the \"Fixed cart discount\" to be applied."
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:155
+msgid "Product categories"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:162
+msgid ""
+"Product categories that the coupon will be applied to, or that need to be "
+"in the cart in order for the \"Fixed cart discount\" to be applied."
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:167
+msgid "Exclude categories"
+msgstr ""
+
+#: admin/partials/wc-review-discounts-meta-box.php:174
+msgid ""
+"Product categories that the coupon will not be applied to, or that cannot "
+"be in the cart in order for the \"Fixed cart discount\" to be applied."
+msgstr ""
+
+#: vendor/sendgrid/php-http-client/test/unit/ClientTest.php:43
+msgid "test"
+msgstr ""
+
+#: wc-review-discounts.php:40
+msgid ""
+"Please install and activate WooCommerce to use Woocommerce Review for "
+"Discounts."
+msgstr ""

@@ -1,0 +1,190 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+  .xsrl-switch {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 22px;
+}
+
+.xsrl-switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.xsrl-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.xsrl-slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .xsrl-slider {
+  background-color: #2196F3;
+}
+
+input:focus + .xsrl-slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .xsrl-slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+.xsrl-help-tip{
+  margin: 0 0 0 9px;
+  position: relative;
+  display: inline-block;
+}
+.xsrl-help-tip::after{
+  font-family: Dashicons;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1;
+  text-indent: 0px;
+  text-align: center;
+  content: "";
+  cursor: help;
+  margin: 0px;
+  speak: none;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.xsrl-help-tip .xsrl-tip {
+    visibility: hidden;
+    font-size:11px;
+    width: 180px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px 5px 5px 5px;
+    position: absolute;
+    z-index: 1;
+    top: 125%;
+    left: 50%;
+    margin-left: -95px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.xsrl-help-tip .xsrl-tip::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #555 transparent;
+}
+
+.xsrl-help-tip:hover .xsrl-tip {
+    visibility: visible;
+    opacity: 1;
+}
+#xsrl-trigger-product,#xsrl-trigger-category,#xsrl-ex-products,#xsrl-products,#xsrl-category,#xsrl-ex-category{
+  width: 50%;
+}
+.xsrl-hidden{
+    display: none;
+}
+.xsrl-single-email-notice{
+  display: none;
+}
+.xsrl-notice-dismiss{
+  display:none;
+}
+.xswcrd-pre{
+    text-decoration: none;
+}
+.xswcrd-button-main{
+    display: inline-block;
+    width: 160px
+}
+.xswcrd-button-main p.submit{
+    margin: 0px;
+    padding-bottom: 0px;
+}
+/* Support css start */
+.xs-pro{
+    color:#2fbb1c;
+    font-weight: inherit;
+    font-size: 14px;
+}
+.xs-pro-link{
+    text-decoration: none;
+}
+.xs-button{
+
+}
+.xs-col-button {
+    width:380px;
+    float: left;
+    
+}
+.xs-button-main{
+    display: inline-block;
+    width: 160px
+}
+.xs-button-main p.submit{
+    margin: 0px;
+    padding-bottom: 0px;
+}
+#xs_name,#xs_email{
+    width: 335px;
+}
+.xs-send-email-notice{
+  display: none;
+}
+.xs-notice-dismiss{
+  display:none;
+}
+.xs-send-mail{
+    font-size: 15px !important;
+    font-family: bold;
+    padding: 2px 15px !important;
+}
+.xs_is_active{
+    display:inline-block;
+    visibility:visible;
+    opacity:1
+}
+.xs-top-margin{
+    margin-top: 20px !important; 
+}
+.xs-mail-spinner{
+    margin-top: 38px ;
+}
+.error{
+    outline: 1px solid red;
+}
+.input-group{
+    display: inline-flex;
+}
+/* support css end */
