@@ -1,4 +1,4 @@
-#WooCommerce Review for Discount 
+# WooCommerce Review for Discount 
 
 WooCommerce Reviews for Discount plugin allows you to offer discounts to your customers for their reviews and recommendations. A positive review is a most powerful tool to drive repeat purchases, up-sells, and new sales.
 
